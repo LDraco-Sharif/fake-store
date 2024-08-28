@@ -1,0 +1,22 @@
+<div class="content">
+    @for (pbc of productsByCategory; track $index) {
+        <div>
+            <h4>{{pbc[0].toLocaleUpperCase()}}</h4>
+            <div class="category-content">
+                @for (p of pbc[1]; track $index) {
+                    <app-product-card [product]="p"></app-product-card>
+                }
+                @empty {
+                    <strong>Nothing to see here</strong>
+                }
+            </div>
+        </div>
+    }
+    @empty {
+        <div class="empty">
+            <strong>Nothing to see here</strong>
+        </div>
+        
+    }
+    
+</div>

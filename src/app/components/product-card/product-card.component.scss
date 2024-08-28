@@ -1,0 +1,23 @@
+.card {
+    width: 200px;
+    padding: 10px;
+    height: 300px;
+}
+
+
+img {
+    height: 65%;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.title {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
+## Stock Image/Video/API Link
+
+[Background](https://www.pexels.com/photo/garage-sale-1087727/)
+[API for Product Info](https://fakestoreapi.com/docs)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

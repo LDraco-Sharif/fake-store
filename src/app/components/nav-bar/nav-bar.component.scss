@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-bar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title {
+    font-family: "Qwitcher Grypen", cursive;
+    text-decoration: none;
+    color: initial;
+    font-size: xx-large;
+
+    &:hover {
+        opacity: .5;
+    }
+
+    &:active {
+        opacity: .9;
+    }
+}
